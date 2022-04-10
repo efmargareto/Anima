@@ -22,7 +22,7 @@ console.log('Hola desde express')
 // Routes
 
 const routes = require('./config/routes')
-app.use('/', routes)
+app.use('/api', routes)
 
 
 // Errores
