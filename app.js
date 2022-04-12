@@ -16,7 +16,13 @@ require('./config/db.config')
 // Creamos api Express
   
 const app = express()
-console.log('Hola desde express')
+
+
+// Middlewares
+
+app.use(cors())
+app.use(express.json())
+app.use(logger('dev'))
 
 
 // Routes
@@ -27,11 +33,23 @@ app.use('/api', routes)
 
 // Errores
 
-app.use((req, res, next) => {
-  next(createError(404, 'Route not found'))
-})
-
 app.use((error, req, res, next) => {
+  if (error instanceof mongoose.Error.ValidationError) {
+    error = createError(400, error);
+  } else if (error instanceof mongoose.Error.CastError) {
+    error = createError(404, "Resource not found");
+  } else if (error.message.includes("E11000")) {
+    error = createError(400, "Already exists");
+  } else if (error instanceof jwt.JsonWebTokenError) {
+    error = createError(401, error);
+  } else if (!error.status) {
+    error = createError(500, error);
+  }
+
+  if (error.status >= 500) {
+    console.error(error);
+  }
+
   const data = {};
   data.message = error.message;
   data.errors = error.errors

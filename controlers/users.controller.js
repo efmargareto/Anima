@@ -15,6 +15,7 @@ module.exports.getUserById = (req, res, next) => {
 }
 
 module.exports.getCurrentUser = (req, res, next) => {
+  // req.currentUser = '6255662c2df65a6e7a8cba2c'
   User.findById(req.currentUser)
     .then(user => {
       if (!user) {
