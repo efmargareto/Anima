@@ -3,6 +3,7 @@ const createError = require('http-errors')
 const User = require('../models/User.model')
 
 module.exports.create = (req, res, next) => {  
+  console.log('Envio del resgister', req.body)
   User.create(req.body)
     .then(user => {
       res.status(201).json(user)
@@ -11,12 +12,6 @@ module.exports.create = (req, res, next) => {
 }
 
 module.exports.login = (req, res, next) => {
-
-  // req.body = {
-  //   "email": "testing@hotmail.com",
-  //   "name": "Eduardo",
-  //   "password": "12341234"
-  // }
   
   // Take password and email to validate
   const { email, password } = req.body
