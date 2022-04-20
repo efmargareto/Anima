@@ -1,4 +1,3 @@
-// Authorization: Bearer dasjndlkjashdjkl.ahdkljashdfjkashdfkjashfjksdhfkjsdh.djhlasdjkash
 const createError = require('http-errors')
 const jwt = require('jsonwebtoken')
 
@@ -14,6 +13,9 @@ module.exports.isNotAuthenticated = (req, res, next) => {
 
 module.exports.isAuthenticated = (req, res, next) => {
   const authorization = req.header('Authorization')
+
+  console.log('req header obj', req.header());
+  console.log('req header', authorization);
 
   // Check if header
   if (!authorization) {
