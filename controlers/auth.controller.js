@@ -4,9 +4,17 @@ const User = require('../models/User.model')
 
 module.exports.create = (req, res, next) => {  
   console.log('Envio del resgister', req.body)
-  User.create(req.body)
-    .then(user => {
-      res.status(201).json(user)
+
+  User.findOne({email: req.body.email})
+    .then( user => {
+      if(!user) {
+        return User.create(req.body)
+          .then(user => {
+            res.status(201).json(user)
+          })
+      } else {
+        next(createError(409, 'Email already exist'))
+      }
     })
     .catch(next)
 }

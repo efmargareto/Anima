@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 // Obtenemos las dependencias
 
 const mongoose = require('mongoose')

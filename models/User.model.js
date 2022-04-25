@@ -23,7 +23,13 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: [true, 'Password is required'],
       minlength: [8, 'Password must have at least 8 characters']
-    }
+    },
+    // image: {
+      // Añadimos multer
+      // Añadimos en el config storage.config
+      // En nuestro usuario de cloudianari tenemos 3 infos
+      // github.com/expressjs/multer --> consumimos el req.file.path
+    // }
   },
   {
     timestamps: true,

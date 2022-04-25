@@ -16,7 +16,7 @@ router.post('/login', authControler.login)
 
 // User 
 // Create
-router.post('/user/create', authControler.create)
+router.post('/user/', authControler.create)
 router.get('/user/me', authMiddleware.isAuthenticated, userControler.getCurrentUser)
 router.get('/user/:id', userControler.getUserById)
 

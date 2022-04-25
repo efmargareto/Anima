@@ -12,10 +12,8 @@ module.exports.isNotAuthenticated = (req, res, next) => {
 }
 
 module.exports.isAuthenticated = (req, res, next) => {
-  const authorization = req.header('Authorization')
 
-  console.log('req header obj', req.header());
-  console.log('req header', authorization);
+  const authorization = req.header('Authorization')
 
   // Check if header
   if (!authorization) {
