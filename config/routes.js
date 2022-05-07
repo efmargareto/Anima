@@ -23,6 +23,9 @@ router.get('/user/me', authMiddleware.isAuthenticated, userControler.getCurrentU
 router.get('/user/:id', userControler.getUserById)
 router.get('/user/likes/:userId', userControler.getNftLiked)
 
+// Edit
+router.post('/user/editUser/:userId', userControler.editUserName)
+router.post('/user/deleteUser/:userId', userControler.deleteUser)
 
 // NFT
 router.post('/nft/create', nftControler.create)
