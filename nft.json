@@ -1,0 +1,52 @@
+[
+  {
+    "background" : ["white"],
+    "clothes" : ["t-shirt"],
+    "jewels" : [""],
+    "skin" : ["tatto"],
+    "eyes" : [""],
+    "head" : ["hat"],
+    "mouth": ["clasic"],
+    "image": "http://localhost:3000/static/media/anima-1.9c31ce8001381e8974dc.jpeg"
+  },
+  {
+    "background" : ["pink"],
+    "clothes" : ["t-shirt"],
+    "jewels" : ["earrings"],
+    "skin" : ["tatto"],
+    "eyes" : ["glasses"],
+    "head" : ["hat"],
+    "mouth": ["clasic"],
+    "image": "http://localhost:3000/static/media/anima-1.9c31ce8001381e8974dc.jpeg"
+  },
+  {
+    "background" : ["pink"],
+    "clothes" : ["sweatshirt"],
+    "jewels" : ["earrings"],
+    "skin" : ["tatto"],
+    "eyes" : ["glasses"],
+    "head" : ["!hat"],
+    "mouth": ["clasic"],
+    "image": "http://localhost:3000/static/media/anima-3.2123efbc25cbdcae940a.jpeg"
+  },
+  {
+    "background" : ["white"],
+    "clothes" : ["t-shirt"],
+    "jewels" : [""],
+    "skin" : ["tatto"],
+    "eyes" : [""],
+    "head" : ["hat"],
+    "mouth": ["moustache"],
+    "image": "http://localhost:3000/static/media/anima-2.713d858e127bd223fa0f.jpeg"
+  },
+  {
+    "background" : ["white"],
+    "clothes" : ["leatherjacket"],
+    "jewels" : [""],
+    "skin" : ["tatto"],
+    "eyes" : ["glasses"],
+    "head" : ["hat"],
+    "mouth": ["clasic"],
+    "image": "http://localhost:3000/static/media/anima-4.7d27756102d58e3b59ed.jpeg"
+  }
+]
