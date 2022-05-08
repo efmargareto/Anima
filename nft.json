@@ -1,52 +1,202 @@
 [
   {
-    "background" : ["white"],
+    "background" : ["dark-grey"],
     "clothes" : ["t-shirt"],
-    "jewels" : [""],
-    "skin" : ["tatto"],
-    "eyes" : [""],
+    "jewels" : ["none"],
+    "skin" : ["basic"],
+    "eyes" : ["basic"],
     "head" : ["hat"],
-    "mouth": ["clasic"],
-    "image": "http://localhost:3000/static/media/anima-1.9c31ce8001381e8974dc.jpeg"
+    "mouth": ["basic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968266/Anima%20Nft/image_1_ankqyu.png"
   },
   {
     "background" : ["pink"],
-    "clothes" : ["t-shirt"],
-    "jewels" : ["earrings"],
+    "clothes" : ["jacket"],
+    "jewels" : ["none"],
     "skin" : ["tatto"],
     "eyes" : ["glasses"],
-    "head" : ["hat"],
+    "head" : ["wool-cap"],
     "mouth": ["clasic"],
-    "image": "http://localhost:3000/static/media/anima-1.9c31ce8001381e8974dc.jpeg"
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968280/Anima%20Nft/image_2_rbpill.png"
   },
   {
     "background" : ["pink"],
+    "clothes" : ["t-shirt"],
+    "jewels" : ["none"],
+    "skin" : ["tatto"],
+    "eyes" : ["basic"],
+    "head" : ["none"],
+    "mouth": ["clasic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968276/Anima%20Nft/image_3_fcy0lp.png"
+  },
+  {
+    "background" : ["dark-grey"],
+    "clothes" : ["jacket"],
+    "jewels" : ["none"],
+    "skin" : ["tatto"],
+    "eyes" : ["empty"],
+    "head" : ["balls"],
+    "mouth": ["basic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968266/Anima%20Nft/image_4_qobwab.png"
+  },
+  {
+    "background" : ["white"],
     "clothes" : ["sweatshirt"],
+    "jewels" : ["none"],
+    "skin" : ["tatto"],
+    "eyes" : ["glasses"],
+    "head" : ["balls"],
+    "mouth": ["clasic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968270/Anima%20Nft/image_5_t7cotx.png"
+  },
+  {
+    "background" : ["light-grey"],
+    "clothes" : ["sweatshirt"],
+    "jewels" : ["none"],
+    "skin" : ["tatto"],
+    "eyes" : ["black-glasses"],
+    "head" : ["scissors"],
+    "mouth": ["clasic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968268/Anima%20Nft/image_6_tmktaw.png"
+  },
+  {
+    "background" : ["white"],
+    "clothes" : ["jacket"],
+    "jewels" : ["none"],
+    "skin" : ["flowers"],
+    "eyes" : ["glasses"],
+    "head" : ["knife"],
+    "mouth": ["mumy"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968266/Anima%20Nft/image_7_tsg23t.png"
+  },
+  {
+    "background" : ["light-grey"],
+    "clothes" : ["t-shirt"],
+    "jewels" : ["none"],
+    "skin" : ["basic"],
+    "eyes" : ["none"],
+    "head" : ["none"],
+    "mouth": ["basic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968267/Anima%20Nft/image_8_ealq5j.png"
+  },
+  {
+    "background" : ["dark-grey"],
+    "clothes" : ["t-shirt"],
+    "jewels" : ["none"],
+    "skin" : ["yellow-basic"],
+    "eyes" : ["empty"],
+    "head" : ["empty"],
+    "mouth": ["open"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968266/Anima%20Nft/image_9_jgcqo9.png"
+  },
+  {
+    "background" : ["white"],
+    "clothes" : ["leather-jacket"],
+    "jewels" : ["earrings"],
+    "skin" : ["flowers"],
+    "eyes" : ["glasses"],
+    "head" : ["wool-cap"],
+    "mouth": ["mummy"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968273/Anima%20Nft/image_10_sjwqsp.png"
+  },
+  {
+    "background" : ["dark-grey"],
+    "clothes" : ["t-shirt"],
     "jewels" : ["earrings"],
     "skin" : ["tatto"],
-    "eyes" : ["glasses"],
-    "head" : ["!hat"],
-    "mouth": ["clasic"],
-    "image": "http://localhost:3000/static/media/anima-3.2123efbc25cbdcae940a.jpeg"
+    "eyes" : ["dark-glasses"],
+    "head" : ["balls"],
+    "mouth": ["basic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968268/Anima%20Nft/image_11_dlszfl.png"
   },
   {
     "background" : ["white"],
+    "clothes" : ["sweatshirt"],
+    "jewels" : ["none"],
+    "skin" : ["yellow-basic"],
+    "eyes" : ["empty"],
+    "head" : ["balls"],
+    "mouth": ["open"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968272/Anima%20Nft/image_12_jdqgoq.png"
+  },
+  {
+    "background" : ["light-grey"],
     "clothes" : ["t-shirt"],
-    "jewels" : [""],
+    "jewels" : ["earrings"],
+    "skin" : ["basic"],
+    "eyes" : ["glasses"],
+    "head" : ["knife"],
+    "mouth": ["basic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968268/Anima%20Nft/image_13_lysysl.png"
+  },
+  {
+    "background" : ["dark-grey"],
+    "clothes" : ["t-shirt"],
+    "jewels" : ["none"],
     "skin" : ["tatto"],
-    "eyes" : [""],
+    "eyes" : ["basic"],
+    "head" : ["wool-cap"],
+    "mouth": ["basic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968269/Anima%20Nft/image_14_cs9m62.png"
+  },
+  {
+    "background" : ["dark-grey"],
+    "clothes" : ["jacket"],
+    "jewels" : ["none"],
+    "skin" : ["basic"],
+    "eyes" : ["basic"],
+    "head" : ["wool-cap"],
+    "mouth": ["mummy"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968272/Anima%20Nft/image_15_po47jc.png"
+  },
+  {
+    "background" : ["dark-grey"],
+    "clothes" : ["leather-jacket"],
+    "jewels" : ["none"],
+    "skin" : ["basic"],
+    "eyes" : ["basic"],
+    "head" : ["none"],
+    "mouth": ["basic"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968269/Anima%20Nft/image_16_ncosmt.png"
+  },
+  {
+    "background" : ["dark-grey"],
+    "clothes" : ["t-shirt"],
+    "jewels" : ["none"],
+    "skin" : ["flowers"],
+    "eyes" : ["basic"],
     "head" : ["hat"],
+    "mouth": ["mummy"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968274/Anima%20Nft/image_17_aoexa2.png"
+  },
+  {
+    "background" : ["pink"],
+    "clothes" : ["dress-shirt"],
+    "jewels" : ["none"],
+    "skin" : ["basic"],
+    "eyes" : ["glasses"],
+    "head" : ["wool-cap"],
     "mouth": ["moustache"],
-    "image": "http://localhost:3000/static/media/anima-2.713d858e127bd223fa0f.jpeg"
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968280/Anima%20Nft/image_18_xqkrgi.png"
   },
   {
     "background" : ["white"],
-    "clothes" : ["leatherjacket"],
-    "jewels" : [""],
-    "skin" : ["tatto"],
-    "eyes" : ["glasses"],
+    "clothes" : ["sweatshirt"],
+    "jewels" : ["none"],
+    "skin" : ["flowers"],
+    "eyes" : ["basic"],
     "head" : ["hat"],
-    "mouth": ["clasic"],
-    "image": "http://localhost:3000/static/media/anima-4.7d27756102d58e3b59ed.jpeg"
+    "mouth": ["mummy"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968273/Anima%20Nft/image_19_lnl5vx.png"
+  },
+  {
+    "background" : ["dark-grey"],
+    "clothes" : ["t-shirt"],
+    "jewels" : ["gold-earrings"],
+    "skin" : ["flowers"],
+    "eyes" : ["basic"],
+    "head" : ["wool-cap"],
+    "mouth": ["mummy"],
+    "image": "https://res.cloudinary.com/dg9dyucfw/image/upload/v1651968273/Anima%20Nft/image_20_rmqkqg.png"
   }
 ]
